@@ -38,7 +38,7 @@ end_date_portfolio = 'The end date of forecasting set' #could be dates in the re
 
 'sizelimit': Limit the size of stock list. '1' or '0'.
 
-'stockdropout': Remove several stocks that have the highest ranking from the list. Enable this when the stocks are very concentrated.
+'stockdropout': Remove several stocks that have the highest rankings from the list. Enable this when the stocks are very concentrated.
 
 3. The core model is a Convolutional Neural Network based on Keras. You can edit the model structure in [CNN_keras.py](https://github.com/yuehuca/stock-selection-framework/blob/main/CNN_keras.py).
 
