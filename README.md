@@ -1,5 +1,5 @@
 # stock-selection-framework
-This is a stock selection framework based on Convolutional Neural Network. You can get a list of stocks that may perform better than others by seting up your desired date periods. All process can be done automatically.
+This is a stock selection framework based on Convolutional Neural Network. You can get a list of stocks that may perform better than others by seting up your desired date periods. All processes can be done automatically.
 The data source could be either [Tushare](https://tushare.pro/) or [baostock](http://baostock.com/). The current version is based on baostock.
 
 1. Go to the [main.py](https://github.com/yuehuca/stock-selection-framework/blob/main/main.py) and edit the dates:
