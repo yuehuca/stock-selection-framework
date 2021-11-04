@@ -11,7 +11,7 @@ import saveresults
 import baostock as bs
 
 
-token_tushare = '6e7cf8c1c16acbbf551404cbc8eb1dbec961846afdc3ff65b3d86cdf'
+token_tushare = '****************' #Enter your tushare token if you are getting data from tushare
 
 #ts.set_token(token_tushare)
 #pro = ts.pro_api()
