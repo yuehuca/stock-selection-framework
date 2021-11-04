@@ -6,14 +6,17 @@ The data source could be either [Tushare](https://tushare.pro/) or [baostock](ht
 
 **Notice: in the default 'realtimedownload' mode, 'start_date_train' and 'end_date_train' are disabled. You should always set the framework under 'realtimedownload' mode unless you are going to change the CNN structure and want to see the validation results.
 
-start_date_test = 'The start date of training set.'
-end_date_test = 'The end date of training set.'
+start_date_test = 'The start date of training set.' 
 
-start_date_forecast = 'The start date of testing set.'
-end_date_forecast = 'The end date of testing set.'
+end_date_test = 'The end date of training set.' 
 
-start_date_portfolio = 'The start date of forecasting set.' #could be dates in the real future
-end_date_portfolio = 'The end date of forecasting set' #could be dates in the real future
+start_date_forecast = 'The start date of testing set.' 
+
+end_date_forecast = 'The end date of testing set.' 
+
+start_date_portfolio = 'The start date of forecasting set.' #could be dates in the real future 
+
+end_date_portfolio = 'The end date of forecasting set' #could be dates in the real future 
 
 **Notice: All the 3 date periods should have the same length. Please take holidays into consideration.
 **Notice: The default version only collects data from the CSI300 Index stocks. Enable 'ts_code = bao_code.baostocklist()' and disable 'ts_code = bao_code.baostock_hs300_list()' to get a larger stock pool.
