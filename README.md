@@ -19,6 +19,7 @@ start_date_portfolio = 'The start date of forecasting set.' #could be dates in t
 end_date_portfolio = 'The end date of forecasting set' #could be dates in the real future 
 
 **Notice: All the 3 date periods should have the same length. Please take holidays into consideration.
+
 **Notice: The default version only collects data from the CSI300 Index stocks. Enable 'ts_code = bao_code.baostocklist()' and disable 'ts_code = bao_code.baostock_hs300_list()' to get a larger stock pool.
 
 2. Run through the code. The downloading process may take about 5 minutes (for CSI300 Index stocks) and the training process may take about 45 minutes (for CSI300 Index stocks). The final CSV file contains a list of stocks that may have better performance in the next period (portfolio period). You may change the program settings according to your testing results.
