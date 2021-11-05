@@ -42,4 +42,4 @@ end_date_portfolio = 'The end date of forecasting set' #could be dates in the re
 
 3. The core model is a Convolutional Neural Network based on Keras. You can edit the model structure in [CNN_keras.py](https://github.com/yuehuca/stock-selection-framework/blob/main/CNN_keras.py).
 
-4. This project is intended to build a stock selection framework for studying and researching. The author does not responsible for any outcomes brought by this framework.
+4. This project is intended to build a stock selection framework for studying and researching. The author does not responsible for any outcome brought by this framework.
